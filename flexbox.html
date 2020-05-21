@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="flexboxmain.css">
+    <title>my page</title>
+</head>
+<body>
+<nav class="navbar">
+     <div class="brand">code<span class="sensei">sensei</span></div>
+     <ul class="topnav responsive" id="navbar-toggle">
+        <li><a class="nav-link" href="#">home</a></li>
+        <li><a class="nav-link"  href="#">products</a></li>
+        <li><a class="nav-link"  href="#">about</a></li>
+        <li><a class="nav-link"  href="#">contact</a></li>
+			  <li><a class="nav-link"  href="#">sign up</a></li>
+         <li class="dropdown-link"><a onclick="toggleDropdown" href="">&#9776;</a></li>
+     </ul>     
+</nav>
+    <header>
+        <div class="headshot-wrapper">
+            <img  class="headshot" src="p1.png" height="200px" width="200px" alt="profile image">
+            <h1>apeksha </h1>
+        </div>
+    </header>
+    <section class="services">
+       <div class="container">
+					 <div class="media-object">
+							 <div class="icon-right">
+									 <img class="icon" src="a4.jpeg" height="300px" width="200px" alt="graph chart">
+							 </div>
+							 <div class="blurb-wrapper-left">
+	 							 <h3 class="blurb-header">The Louvre, Paris</h3>
+								 <div class="blurb-info">
+									The world’s best-known work of art, the "Mona Lisa," finds its home in the world’s most visited museum, the Louvre. For more than 200 years, da Vinci’s famous painting has resided within the Louvre, a treasure trove showcasing nearly 35,000 pieces of artwork from prehistory to the 19th century.
+							   </div>
+					 </div>
+       </div>
+					 <div class="media-object">
+							 <div class="icon-left">
+									 <img class="icon" src="a4.jpeg" height="300px" width="200px" alt="graph chart">
+							 </div>
+							 <div class="blurb-wrapper-right">
+	 							 <h3 class="blurb-header">The Louvre, Paris</h3>
+								 <div class="blurb-info">
+									The world’s best-known work of art, the "Mona Lisa," finds its home in the world’s most visited museum, the Louvre. For more than 200 years, da Vinci’s famous painting has resided within the Louvre, a treasure trove showcasing nearly 35,000 pieces of artwork from prehistory to the 19th century.
+							   </div>
+					 </div>
+       </div>
+			 <div class="media-object">
+							 <div class="icon-right">
+									 <img class="icon" src="a4.jpeg" height="300px" width="200px" alt="graph chart">
+							 </div>
+							 <div class="blurb-wrapper-left">
+	 							 <h3 class="blurb-header">The Louvre, Paris</h3>
+								 <div class="blurb-info">
+									The world’s best-known work of art, the "Mona Lisa," finds its home in the world’s most visited museum, the Louvre. For more than 200 years, da Vinci’s famous painting has resided within the Louvre, a treasure trove showcasing nearly 35,000 pieces of artwork from prehistory to the 19th century.
+							   </div>
+					 </div>
+       </div>
+				 <div class="quote-btn-wrapper">
+					 <button class="quote-btn">Get a quote</button>
+				 </div>
+			 </div>
+    </section>
+	<section class="contact-container">
+		<div class="container">
+			<div class="section-header">
+				<h1>Drop us a line</h1>
+			</div>
+			<form action="">
+				<label for="email">*email</label>
+				<div class="form-group">
+					<input class="form-control" type="email" id="email">
+				</div>
+				<label for="name">*name</label>
+				<div class="form-group">
+					<input class="form-control" type="text" id="name">
+				</div>
+				<label for="name">*message</label>
+				<div class="form-group">
+					<textarea class="form-control" id="message" rows="6"></textarea>
+				</div>
+				<div class="submit-btn-wrapper">
+					<button class="quote-btn">submit</button>
+				</div>
+			</form>
+		</div>
+	</section>
+    <script src="https://code.jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="flexmain.js"></script>
+</body>
+</html>
